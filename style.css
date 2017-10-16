@@ -4,7 +4,7 @@
 }
 
 html, body {
-	height: 100%;
+	height: 90%;
 	width: 100%;
 }
 
@@ -65,7 +65,19 @@ footer {
 	line-height: 80px;
 }
 
-footer div#impressum {
+footer span a {
+	color: #ffffff;
+}
+
+footer span a:active {
+	color: #ffffff;
+}
+
+footer span a:visited {
+	color: #ffffff;
+}
+
+div#impressum {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: #000000;
@@ -75,6 +87,10 @@ footer div#impressum {
 	padding-right: 20%;
 }
 
-footer div#impressum p {
+div#impressum h1 {
+	text-align: center;
+}
+
+div#impressum p {
 	margin-bottom: 10px;
 }
